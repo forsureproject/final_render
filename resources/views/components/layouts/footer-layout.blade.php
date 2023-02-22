@@ -1,3 +1,4 @@
+
 <div class="px-8 md:px-20 ">
 
 <footer id="footer" class="footer section">
@@ -51,4 +52,4 @@
     </div>
 </footer>
 </div>
-</div>
+
