@@ -4,12 +4,12 @@
 
 
   	/*-------------------------------------------------------------------------------
-	  Detect mobile device 
+	  Detect mobile device
 	-------------------------------------------------------------------------------*/
 
 
-	
-	var mobileDevice = false; 
+
+	var mobileDevice = false;
 
 	if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
 	  	$('html').addClass('mobile');
@@ -32,11 +32,11 @@
 	$(window).on('load', function(){
 
 		var wow = new WOW({
-		    offset: 150,          
+		    offset: 150,
 		    mobile: false
 		  }
 		);
-		
+
 		wow.init();
 	});
 
@@ -76,7 +76,7 @@
 
 
 	/*-------------------------------------------------------------------------------
-	  Navbar 
+	  Navbar
 	-------------------------------------------------------------------------------*/
 
 
@@ -96,7 +96,7 @@
 
 	navbar.on('affixed-top.bs.affix', function() {
 	  	navbar.removeClass('animated slideInDown');
-	  	
+
 	});
 
 	$('.nav-mobile-list li a[href="#"]').on('click',function(){
@@ -150,20 +150,20 @@
     });
 
 
-    
+
     /*-------------------------------------------------------------------------------
 	  Parallax
 	-------------------------------------------------------------------------------*/
 
 
 
-	$(window).stellar({
-	  	responsive: true,
-	  	horizontalScrolling: false,
-	  	hideDistantElements: false,
-	  	horizontalOffset: 0,
-	  	verticalOffset: 0,
-	});
+	// $(window).stellar({
+	//   	responsive: true,
+	//   	horizontalScrolling: false,
+	//   	hideDistantElements: false,
+	//   	horizontalOffset: 0,
+	//   	verticalOffset: 0,
+	// });
 
 
 
@@ -175,8 +175,8 @@
 
 	function columnGrid(){
 	  $('.js-grid-items').each(function(){
-		  var colWrap =$(this).width(); 
-		  var colItem = Math.floor(colWrap / 390); 
+		  var colWrap =$(this).width();
+		  var colItem = Math.floor(colWrap / 390);
 		  var colFixedItem = Math.floor(colWrap / colItem);
 		  $(this).find('.js-grid-item').css({ 'width' : colWrap});
 		  $(this).find('.js-grid-item').css({ 'width' : colFixedItem});
@@ -242,7 +242,7 @@
 		    itemsDesktop : [1199,1],
 		    itemsDesktopSmall : [980,1],
 		    itemsTablet: [768,1],
-		    itemsMobile : [479,1], 
+		    itemsMobile : [479,1],
 		    pagination:true,
 		 	autoHeight : true
 
@@ -313,7 +313,7 @@
 		-------------------------------------------------------------------------------*/
 
 
-		  
+
 	   $('.partner-carousel').owlCarousel({
 		    margin:30,
 		    smartSpeed:250,
@@ -354,7 +354,7 @@
 		        },
 		        720:{
 		            items:2,
-		            
+
 		        },
 		        1280:{
 		            items:3
@@ -369,7 +369,7 @@
 		        },
 		        720:{
 		            items:1,
-		            
+
 		        },
 		        1280:{
 		            items:1
@@ -391,19 +391,19 @@
 
 
 
-	 var $container=$('.js-isotope').each(function() {		
+	 var $container=$('.js-isotope').each(function() {
 		var $container = $(this);
 		$container.imagesLoaded( function(){
-			$container.isotope({		 
+			$container.isotope({
 				itemSelector: '.js-isotope-item',
 				percentPosition: true,
-				layoutMode: 'masonry',	
+				layoutMode: 'masonry',
 				masonry: {
 				  columnWidth: '.js-isotope-item'
-				}	
-			});	
+				}
+			});
 		});
-    }); 
+    });
 
 
 
@@ -471,7 +471,7 @@
 
 
    /*-------------------------------------------------------------------------------
-	  Filter Carousel 
+	  Filter Carousel
 	-------------------------------------------------------------------------------*/
 
 
@@ -492,7 +492,7 @@
 
 
 	/*-------------------------------------------------------------------------------
-	  Full screen sections 
+	  Full screen sections
 	-------------------------------------------------------------------------------*/
 
 
@@ -509,14 +509,14 @@
 	            else{
 	            	$('.navbar').addClass('navbar-white');
 	            }
-	            
+
   			}
 		});
 
 
 
 		/*-------------------------------------------------------------------------------
-		   Scroll into sections 
+		   Scroll into sections
 		/-------------------------------------------------------------------------------*/
 
 
@@ -548,7 +548,7 @@
 		$('.pp-nav-down').on('click', function(){
 			$.fn.pagepiling.moveSectionDown();
 		});
-    } 
+    }
 
 
 
