@@ -1,30 +1,110 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="csrf-token" content="{{ csrf_token() }}">
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="{{ asset('images/favicon_io/favicon.ico') }}">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
 
-        <!-- Scripts -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
-    </head>
-    <body class="font-sans text-gray-900 antialiased">
-        <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100 dark:bg-gray-900">
-            <div>
-                <a href="/">
-                    <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
-                </a>
-            </div>
+    <title>Forsure Real Estate Ltd</title>
 
-            <div class="w-full sm:max-w-md mt-6 px-6 py-4 bg-white dark:bg-gray-800 shadow-md overflow-hidden sm:rounded-lg">
-                {{ $slot }}
-            </div>
-        </div>
-    </body>
+    {{-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i|Poppins:300,400,500,600,700"
+        rel="stylesheet"> --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/css/animsition.min.css"
+        integrity="sha512-SagM1PHxt5mWDyWARVY6UOdhM5A8J+R1UqIWcGfiwOd+be7uHQagB+JQOmfVZF8jjJQqbyuWzw/KXfb4yqjBkQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+</head>
+
+<body>
+
+    <div class="animsition">
+        {{ $slot }}
+    </div>
+
+    <!-- jQuery -->
+
+    <x-layouts.footer-layout />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sly/1.6.1/sly.min.js"
+        integrity="sha512-uR46GOwRUepFi2dzcatO3qpr4onAj46VC9ltPFIwaX8YXl5O18nVT/JnJZY7yqrrKUP0ngD/YjuatsJqCDpYyg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    {{-- <script src="js/animsition.min.js"></script> --}}
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animsition/4.0.2/js/animsition.min.js"
+        integrity="sha512-pYd2QwnzV9JgtoARJf1Ui1q5+p1WHpeAz/M0sUJNprhDviO4zRo12GLlk4/sKBRUCtMHEmjgqo5zcrn8pkdhmQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stellar-base/8.2.2/stellar-base.min.js"
+        integrity="sha512-tp5/CyNp7vtqAmbdDrDmAkwse5eHYQtGnswNmGEPHgqpAWD6LJ3XifMnDOQ1OAjueJcyaHiR1xFhjbALa3OalA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.min.js"
+        integrity="sha512-HYG9E+RmbXS7oy529Nk8byKFw5jqM3R1zzvoV2JnltsIGkK/AhZSzciYCNxDMOXEbYO9w6MJ6SpuYgm5PJPpeQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+        integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+        integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    {{-- <script src="js/isotope.pkgd.min.js"></script> --}}
+    {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> --}}
+    <script src="{{ asset('/js/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ asset('/js/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ asset('/js/plugins.js') }}"></script>
+
+
+
+
+    <!-- Slider revolution -->
+    <script src="{{ asset('js/rev-slider/jquery.themepunch.tools.min.js') }}"></script>
+    <script src="{{ asset('js/rev-slider/jquery.themepunch.revolution.min.js') }}"></script>
+
+
+    <!-- Slider revolution 5x Extensions   -->
+    <script src="js/rev-slider/revolution.extension.actions.min.js"></script>
+    <script src="js/rev-slider/revolution.extension.carousel.min.js"></script>
+    <script src="js/rev-slider/revolution.extension.kenburn.min.js"></script>
+    <script src="js/rev-slider/revolution.extension.layeranimation.min.js"></script>
+    <script src="js/rev-slider/revolution.extension.migration.min.js"></script>
+    <script src="js/rev-slider/revolution.extension.navigation.min.js"></script>
+    <script src="js/rev-slider/revolution.extension.parallax.min.js"></script>
+    <script src="js/rev-slider/revolution.extension.slideanims.min.js"></script>
+    <script src="js/rev-slider/revolution.extension.video.min.js"></script>
+
+
+    <!-- Scripts -->
+    <script src="{{ asset('js/scripts.js') }}"></script>
+    <script src="{{ asset('js/rev-slider-init.js') }}"></script>
+    <script>
+        // Get the current year using JavaScript
+        const currentDateYear = new Date().getFullYear();
+
+        // Update all span elements with the class "currentYear" with the current year
+        const elements = document.getElementsByClassName("currentYear");
+        for (let i = 0; i < elements.length; i++) {
+            elements[i].innerHTML = currentDateYear;
+        }
+    </script>
+
+</body>
+
 </html>
