@@ -623,7 +623,7 @@
     </section>
 
     <!-- Section News -->
-    <section class="section-news section">
+    <section class="section-news section hidden">
         <div class="container">
             <h2 class="section-title">Latest News <a href="" class="link-arrow-2 pull-right">All
                     Articles <i class="icon ion-ios-arrow-right"></i></a></h2>

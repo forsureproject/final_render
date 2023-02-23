@@ -197,172 +197,38 @@
                     </section>
                 </div>
             </section>
-            <section class="section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="section-info">
-                                <div class="title-hr"></div>
-                                <div class="info-title">Meet Our Team</div>
-                            </div>
-                        </div>
-                        <div class="col-md-9">
-                            <div class="row-team row">
-                                <div class="col-team col-xs-6 col-md-4">
-                                    <div class="team-profile">
-                                        <img alt="" src="images/team/1-270x270.jpg">
-                                        <div class="team-hover">
-                                            <div class="team-content">
-                                                <div class="team-name">
-                                                    <h6>Alex Ferguson</h6>
-                                                    <div class="team-spec">CEO Founder</div>
-                                                </div>
-                                                <div class="team-social">
-                                                    <div href="" class="icon ion-social-twitter"></div>
-                                                    <div href="" class="icon ion-social-facebook"></div>
-                                                    <div href="" class="icon ion-social-linkedin"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-team col-xs-6 col-md-4">
-                                    <div class="team-profile">
-                                        <img alt="" src="images/team/2-270x270.jpg">
-                                        <div class="team-hover">
-                                            <div class="team-content">
-                                                <div class="team-name">
-                                                    <h6>Alex Ferguson</h6>
-                                                    <div class="team-spec">CEO Founder</div>
-                                                </div>
-                                                <div class="team-social">
-                                                    <div href="" class="icon ion-social-twitter"></div>
-                                                    <div href="" class="icon ion-social-facebook"></div>
-                                                    <div href="" class="icon ion-social-linkedin"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-team col-xs-6 col-md-4">
-                                    <div class="team-profile">
-                                        <img alt="" src="images/team/3-270x270.jpg">
-                                        <div class="team-hover">
-                                            <div class="team-content">
-                                                <div class="team-name">
-                                                    <h6>Alex Ferguson</h6>
-                                                    <div class="team-spec">CEO Founder</div>
-                                                </div>
-                                                <div class="team-social">
-                                                    <div href="" class="icon ion-social-twitter"></div>
-                                                    <div href="" class="icon ion-social-facebook"></div>
-                                                    <div href="" class="icon ion-social-linkedin"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-team col-xs-6 col-md-4">
-                                    <div class="team-profile">
-                                        <img alt="" src="images/team/4-270x270.jpg">
-                                        <div class="team-hover">
-                                            <div class="team-content">
-                                                <div class="team-name">
-                                                    <h6>Alex Ferguson</h6>
-                                                    <div class="team-spec">CEO Founder</div>
-                                                </div>
-                                                <div class="team-social">
-                                                    <div href="" class="icon ion-social-twitter"></div>
-                                                    <div href="" class="icon ion-social-facebook"></div>
-                                                    <div href="" class="icon ion-social-linkedin"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-team col-xs-6 col-md-4">
-                                    <div class="team-profile">
-                                        <img alt="" src="images/team/5-270x270.jpg">
-                                        <div class="team-hover">
-                                            <div class="team-content">
-                                                <div class="team-name">
-                                                    <h6>Alex Ferguson</h6>
-                                                    <div class="team-spec">CEO Founder</div>
-                                                </div>
-                                                <div class="team-social">
-                                                    <div href="" class="icon ion-social-twitter"></div>
-                                                    <div href="" class="icon ion-social-facebook"></div>
-                                                    <div href="" class="icon ion-social-linkedin"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-team col-xs-6 col-md-4">
-                                    <div class="add-new-team">
-                                        <div class="add-new-text">
-                                            <div class="inner">submit<br>your<br>resume</div>
-                                        </div>
-                                        <form>
-                                            <input type="file">
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <hr class="my-12 h-0.5 border-t-0 bg-gray-500/10 opacity-100 dark:opacity-50" />
+            <div class="js-isotope" style="position: relative; height: 2163.81px;">
+                <div class="inspiration card-row js-isotope-item" style="position: absolute; left: 0%; top: 0px;">
+                  <div class="card-row-img col-md-7 col-lg-8 hidden-sm hidden-xs" style="background-image:url(images/news/vision.jpg)"></div>
+                  <img class="visible-sm visible-xs img-responsive" alt="" src="images/news/vision.jpg">
+                  <div class="card-block col-md-offset-7 col-lg-offset-8">
+                    <h4 class="card-title">Our Vision</h4>
+                    <div class="card-text">We always want to be the assured Real Estate developers that clients can depend on when it comes to acquisition of land and developing it in a place of their desire of which they can call their dream home.
+                        With pragmatic approach we constantly strive to develop collaborative partnerships, based on transparency and mutual trust, which serve to build longevity in client relationships. As we move forward we’re committed to these principles we’ve structured through the years of which have served our company and clients.
+                        In the long-term we envisage developing a DIASPORA COMMUNITY built with international standards.
+                        .</div>
+
+                  </div>
                 </div>
-            </section>
+
+              </div>
+            <hr class="my-12 h-0.5 border-t-0 bg-gray-500/10 opacity-100 dark:opacity-50" />
+            <div class="js-isotope" style="position: relative; height: 2163.81px;">
+                <div class="inspiration card-row js-isotope-item" style="position: absolute; left: 0%; top: 0px;">
+                  <div class="card-row-img col-md-7 col-lg-8 hidden-sm hidden-xs" style="background-image:url(images/news/1-770x555.jpg)"></div>
+                  <img class="visible-sm visible-xs img-responsive" alt="" src="images/news/1-770x555.jpg">
+                  <div class="card-block col-md-offset-7 col-lg-offset-8">
+                    <h4 class="card-title">Our Mission</h4>
+                    <div class="card-text">We intend to achieve our vision by creating a well-focused and committed team in the field of construction, focused on the investment and development of long-term relationships. We measure our success by the results delivered to clients. Our ethics are built on our commitment to offer superior customer service and bespoke service of a fast-growing real estate company in present time.</div>
+
+                  </div>
+                </div>
+
+              </div>
+
         </div>
     </div>
 
-
-
-    <section class="section-about">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <strong class="section-subtitle">about us</strong>
-                    <h2 class="section-title section-about-title">Tailor Made Real Estate Solutions</h2>
-                    <p>
-                        We are a multifunctional registered limited liability Real Estate company
-                        well-versed in legal acquisition of Title land, building and constructing of
-                        projects suitable for residential and commercial purposes. We are abreast with
-                        documentations having well experienced professionals in our team that make sure all
-                        documentations are legit before handing over to our valued clients. We have years of
-                        experience in building and architecture having expertise in the area of architecture
-                        and construction.
-
-
-                    </p>
-                    <br>
-                    <p>
-                        In other to maintain, protect our brands identity we are over protective of our
-                        lands because we are mindful of what many go through when it comes to purchasing a
-                        land and most importantly building on it especially when the owners are staying
-                        abroad. So we have outlined a principle of not just selling the land but giving a
-                        package of which one must buy the land and we build on it for the client giving them
-                        a very affordable cost based on their design chosen with payments done in
-                        installation with terms and conditions applied.
-
-                    </p>
-                    <div class="experience-box">
-                        <div class="experience-border"></div>
-                        <div class="experience-content">
-                            <div class="experience-number">26</div>
-                            <div class="experience-info wow fadeInDown">Years<br>Experience<br>Working
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-5 col-md-offset-1">
-                    <div class="dots-image">
-                        <img alt="" class="about-img img-responsive" src="images/plan1.jpg">
-                        <div class="dots"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
 </x-guest-layout>

@@ -5,13 +5,13 @@
     </div>
     <ul class="menu-list right-boxed">
         <li class="active">
-            <a href="{{ url('home') }}">Home</a>
+            <a href="{{ url('/') }}">Home</a>
         </li>
         <li>
             <a href="{{ url('about') }}">About Us</a>
         </li>
         <li>
-            <a href="#">Why Us?</a>
+            <a href="{{ url('about#why-us') }}">Why Us?</a>
         </li>
         <li>
             <a href="#">Contact Us</a>
