@@ -346,7 +346,7 @@
 
 
                         </p>
-                        <br>
+
                         <p>
                             In other to maintain, protect our brands identity we are over protective of our
                             lands because we are mindful of what many go through when it comes to purchasing a

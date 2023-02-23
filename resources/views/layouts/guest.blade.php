@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="description" content="Forsure, Forsure Real Estate, Real Estate Ghana, Ghana Diaspora, We are a team of real estate developers focused on land acquisition and collaborative partnerships, built on transparency and mutual trust, to create longevity in client relationships. With a pragmatic approach, we provide bespoke services and superior customer service to help clients achieve their dream homes. Our investment in long-term relationships and results delivered to clients sets us apart as a fast-growing real estate company committed to building for the future with international standards, including a Diaspora community. Join us for a well-focused and committed team that measures success by client satisfaction.">
     <meta name="author" content="">
     <!-- Favicons -->
     <link rel="shortcut icon" href="{{ asset('images/favicon_io/favicon.ico') }}">
