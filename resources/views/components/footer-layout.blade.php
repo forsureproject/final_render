@@ -30,7 +30,7 @@
                 <li><a href="">Contact</a></li>
             </ul>
         </div>
-        <div class="flex-item">
+        <div class="flex-item invisible">
             <ul>
                 <li class="active"><a href="">Login</a></li>
                 <li class="active"><a href="">Signup</a></li>

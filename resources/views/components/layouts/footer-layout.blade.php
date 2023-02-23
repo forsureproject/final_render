@@ -22,18 +22,18 @@
                 <li><a href="">Site Map</a></li>
                 <li><a href="">Term & Conditions</a></li>
                 <li><a href="">Privacy Policy</a></li>
-                <li><a href="">Help</a></li>
+                <li><a href="{{ url('contact') }}">Help</a></li>
             </ul>
         </div>
         <div class="flex-item">
             <ul>
-                <li><a href="">Our Location</a></li>
+                <li><a href="{{ url('/') }}">Home</a></li>
+                <li><a href="{{ url('about') }}">About</a></li>
+                <li><a href="{{ url('contact') }}">Contact</a></li>
                 <li><a href="">Career</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
             </ul>
         </div>
-        <div class="flex-item">
+        <div class="flex-item invisible">
             <ul>
                 <li class="active"><a href="">Login</a></li>
                 <li class="active"><a href="">Signup</a></li>

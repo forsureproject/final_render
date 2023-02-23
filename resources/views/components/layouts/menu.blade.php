@@ -14,8 +14,9 @@
             <a href="{{ url('about#why-us') }}">Why Us?</a>
         </li>
         <li>
-            <a href="#">Contact Us</a>
+            <a href="{{ url('contact') }}">Contact</a>
         </li>
+
     </ul>
     <div class="menu-footer right-boxed space-y-3">
         <div class="social-list">
