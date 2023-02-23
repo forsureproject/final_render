@@ -187,7 +187,7 @@
                             data-splitin="chars" data-splitout="none" data-responsive_offset="on"
                             data-elementdelay="0.05"
                             style="font-weight:600; letter-spacing:-0.01em; line-height: 50px; font-size:55px;">
-                            Own a piece of Africa's<br> promising <br>future.
+                            Own a piece of <br>Africa's promising <br>future.
                         </div>
 
 
@@ -456,7 +456,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <strong class="section-subtitle">about us</strong>
-                    <h2 class="section-title section-about-title">Tailor Made Real Estate Solutions</h2>
+                    <h2 class="section-title section-about-title">Tailor Made Real <br>Estate Solutions</h2>
                     <p>
                         We are a multifunctional registered limited liability Real Estate company
                         well-versed in legal acquisition of Title land, building and constructing of
@@ -479,14 +479,14 @@
                         installation with terms and conditions applied.
 
                     </p>
-                    <div class="experience-box">
+                    {{-- <div class="experience-box">
                         <div class="experience-border"></div>
                         <div class="experience-content">
                             <div class="experience-number">26</div>
                             <div class="experience-info wow fadeInDown">Years<br>Experience<br>Working
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="col-md-5 col-md-offset-1">
                     <div class="dots-image">
@@ -497,12 +497,21 @@
             </div>
         </div>
     </section>
+
+    {{-- <section class="section">
+        <hr class="my-12 h-0.5 border-t-0 bg-gray-500/10 opacity-100 dark:opacity-50" />
+        <img
+  src="https://tecdn.b-cdn.net/img/new/slides/041.jpg"
+  class="h-auto max-w-full"
+  alt="..." />
+    </section> --}}
     <!-- Section Projects -->
-    <section class="section-projects section">
+    <section class=" section mt-24">
+        {{-- <hr class="my-12 h-0.5 border-t-0 bg-gray-500/10 opacity-100 dark:opacity-50" /> --}}
         <div class="container">
             <div class="row">
                 <div class="col-lg-5">
-                    <h2 class="section-title">Latest Projects</h2>
+                    <h2 class="section-title">Ongoing Projects</h2>
                 </div>
                 <div class="col-lg-7">
                     <div class="filter-content">
@@ -513,17 +522,41 @@
                             <li><a href="#" data-filter=".interior-exterior">Interior & Exterior
                                 </a></li>
                         </ul>
-                        <a href="" class="view-projects">View All Projects</a>
+                        {{-- <a href="" class="view-projects">View All Projects</a> --}}
                     </div>
                 </div>
             </div>
         </div>
-        <div class="project-carousel owl-carousel">
+        <div class="project-carousel owl-carousel ">
             <div class="project-item item-shadow building">
-                <img alt="" class="img-responsive" src="images/projects/1-426x574.jpg">
+                <img alt="" class="img-responsive" src="images/projects/building1.jpg">
                 <div class="project-hover">
                     <div class="project-hover-content">
-                        <h3 class="project-title">Triangle<br>Concrete House<br>On Lake</h3>
+                        <h3 class="project-title">Mid-century modern<br>Concrete and Glass House</h3>
+                        <p class="project-description">
+                            Experience the beauty of mid-century modern design in your own luxurious home. This timeless style offers a unique blend of elegance and functionality, perfect for those seeking a chic and sophisticated living space.
+                        </p>
+                    </div>
+                </div>
+                <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+            </div>
+            <div class="project-item item-shadow building">
+                <img alt="" class="img-responsive" src="images/projects/building2.jpg">
+                <div class="project-hover">
+                    <div class="project-hover-content">
+                        <h3 class="project-title">Ocean View<br>Apartments</h3>
+                        <p class="project-description">
+                            Indulge in the ultimate coastal living experience with a breathtaking ocean view apartment offering exceptional comfort, style, and proximity to the ocean's beauty. Your dream home by the sea awaits.
+                        </p>
+                    </div>
+                </div>
+                <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+            </div>
+            <div class="project-item item-shadow building">
+                <img alt="" class="img-responsive" src="images/projects/building3.jpg">
+                <div class="project-hover">
+                    <div class="project-hover-content">
+                        <h3 class="project-title">Ultimate sanctuary <br>for relaxation and comfort.</h3>
                         <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing
                             elit. Proin nunc
                             leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt
@@ -533,58 +566,13 @@
                 </div>
                 <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
             </div>
-            <div class="project-item item-shadow building">
-                <img alt="" class="img-responsive" src="images/projects/2-426x574.jpg">
-                <div class="project-hover">
-                    <div class="project-hover-content">
-                        <h3 class="project-title">Ocean<br>Museum<br>Italy</h3>
-                        <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing
-                            elit. Proin nunc
-                            leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt
-                            velit nec laoreet
-                            semper...</p>
-                    </div>
-                </div>
-                <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
-            </div>
-            <div class="project-item item-shadow building">
-                <img alt="" class="img-responsive" src="images/projects/3-426x574.jpg">
-                <div class="project-hover">
-                    <div class="project-hover-content">
-                        <h3 class="project-title">Milko<br>Co-Working<br>Building</h3>
-                        <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing
-                            elit. Proin nunc
-                            leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt
-                            velit nec laoreet
-                            semper...</p>
-                    </div>
-                </div>
-                <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
-            </div>
-            <div class="project-item item-shadow building">
-                <img alt="" class="img-responsive" src="images/projects/4-426x574.jpg">
-                <div class="project-hover">
-                    <div class="project-hover-content">
-                        <h3 class="project-title">Redesign<br>Interior For<br>Villa</h3>
-                        <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing
-                            elit. Proin nunc
-                            leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt
-                            velit nec laoreet
-                            semper...</p>
-                    </div>
-                </div>
-                <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
-            </div>
+
             <div class="project-item item-shadow interior-exterior">
-                <img alt="" class="img-responsive" src="images/projects/5-426x574.jpg">
+                <img alt="" class="img-responsive" src="images/projects/interior1.jpg">
                 <div class="project-hover">
                     <div class="project-hover-content">
-                        <h3 class="project-title">Wooden<br>Hozirontal<br>Villa</h3>
-                        <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing
-                            elit. Proin nunc
-                            leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt
-                            velit nec laoreet
-                            semper...</p>
+                        <h3 class="project-title">From Modern<br>to Contemporary<br>Design</h3>
+                        <p class="project-description">You can choose from Modern, Contemporary, Traditional, Mid-century modern, or Hollywood Regency inspired luxury style.   </p>
                     </div>
                 </div>
                 <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
@@ -633,85 +621,7 @@
             </div>
         </div>
     </section>
-    <!-- Section Clients -->
-    <section class="section-clients section bg-dots">
-        <div class="container">
-            <h2 class="section-title">From Great Our Clients</h2>
-            <div class="client-carousel owl-carousel">
-                <div class="client-carousel-item">
-                    <img alt="" class="client-img" src="images/clients/1-92x92.jpg">
-                    <div class="client-box">
-                        <img alt="" class="image-quote" src="images/image-icons/icon-quote.png">
-                        <div class="client-title">
-                            <span class="client-name">Adam Stone</span>
-                            <span class="client-company">/ CEO at Google INC</span>
-                        </div>
-                        <p class="client-description">Sed elit quam, iaculis sed semper sit amet udin vitae
-                            nibh. at magna
-                            akal semperFusce commodo molestie luctus.Lorem ipsum Dolor tusima olatiup.</p>
-                    </div>
-                </div>
-                <div class="client-carousel-item">
-                    <img alt="" class="client-img" src="images/clients/2-92x92.jpg">
-                    <div class="client-box">
-                        <img alt="" class="image-quote" src="images/image-icons/icon-quote.png">
-                        <div class="client-title">
-                            <span class="client-name">Anabella Kleva </span>
-                            <span class="client-company">/ Managerment at Envato</span>
-                        </div>
-                        <p class="client-description">Sed elit quam, iaculis sed semper sit amet udin vitae
-                            nibh. at magna
-                            akal semperFusce commodo molestie luctus.Lorem ipsum Dolor tusima olatiup.</p>
-                    </div>
-                </div>
-                <div class="client-carousel-item">
-                    <img alt="" class="client-img" src="images/clients/1-92x92.jpg">
-                    <div class="client-box">
-                        <img alt="" class="image-quote" src="images/image-icons/icon-quote.png">
-                        <div class="client-title">
-                            <span class="client-name">Adam Stone</span>
-                            <span class="client-company">/ CEO at Google INC</span>
-                        </div>
-                        <p class="client-description">Sed elit quam, iaculis sed semper sit amet udin vitae
-                            nibh. at magna
-                            akal semperFusce commodo molestie luctus.Lorem ipsum Dolor tusima olatiup. Sed
-                            elit quam, iaculis
-                            sed semper sit amet udin vitae nibh</p>
-                    </div>
-                </div>
-                <div class="client-carousel-item">
-                    <img alt="" class="client-img" src="images/clients/2-92x92.jpg">
-                    <div class="client-box">
-                        <img alt="" class="image-quote" src="images/image-icons/icon-quote.png">
-                        <div class="client-title">
-                            <span class="client-name">Adam Stone</span>
-                            <span class="client-company">/ CEO at Google INC</span>
-                        </div>
-                        <p class="client-description">Sed elit quam, iaculis sed semper sit amet udin vitae
-                            nibh. at magna
-                            akal semperFusce commodo molestie luctus.Lorem ipsum Dolor tusima olatiup.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="partner-carousel owl-carousel">
-                <div class="partner-carousel-item">
-                    <img alt="" src="images/partners/1.png">
-                </div>
-                <div class="partner-carousel-item">
-                    <img alt="" src="images/partners/2.png">
-                </div>
-                <div class="partner-carousel-item">
-                    <img alt="" src="images/partners/3.png">
-                </div>
-                <div class="partner-carousel-item">
-                    <img alt="" src="images/partners/4.png">
-                </div>
-                <div class="partner-carousel-item">
-                    <img alt="" src="images/partners/5.png">
-                </div>
-            </div>
-        </div>
-    </section>
+
     <!-- Section News -->
     <section class="section-news section">
         <div class="container">

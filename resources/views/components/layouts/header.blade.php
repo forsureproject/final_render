@@ -8,8 +8,8 @@
                 <span class="icon-bar"></span>
             </button>
 
-            <a class="brand" href="#">
-                <img alt="" src="images/brand.png">
+            <a class="brand" href="{{ url('/') }}">
+                <img class="" alt="" src="images/brand.png">
                 <div class="brand-info">
                     <div class="brand-name">Forsure</div>
                     <div class="brand-text">Real Estate</div>

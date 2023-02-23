@@ -1,8 +1,8 @@
 <footer id="footer" class="footer section">
     <div class="footer-flex">
         <div class="flex-item">
-            <a class="brand pull-left" href="#">
-                <img alt="" src="images/brand.png">
+            <a class="brand pull-left" href="{{  url('/') }}">
+                <img class="w-20 aspect-square" alt="" src="images/brand.png">
                 <div class="brand-info">
                     <div class="brand-name">Forsure</div>
                     <div class="brand-text">Real Estate Ltd.</div>
