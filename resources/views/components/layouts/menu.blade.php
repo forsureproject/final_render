@@ -4,10 +4,10 @@
 </div>
 <ul class="menu-list right-boxed">
     <li class="active">
-        <a href="index.html">Home</a>
+        <a href="{{ url('home') }}">Home</a>
     </li>
     <li>
-        <a href="about.html">About Us</a>
+        <a href="{{  url('about') }}">About Us</a>
     </li>
     <li>
         <a href="#">Why Us?</a>
