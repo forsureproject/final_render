@@ -11,9 +11,6 @@
             <a href="{{ url('about') }}">About Us</a>
         </li>
         <li>
-            <a href="{{ url('about#why-us') }}">Why Us?</a>
-        </li>
-        <li>
             <a href="{{ url('contact') }}">Contact</a>
         </li>
 
