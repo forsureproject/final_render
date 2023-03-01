@@ -11,6 +11,9 @@
             <a href="{{ url('about') }}">About Us</a>
         </li>
         <li>
+            <a href="{{ url('process') }}">Our Process</a>
+        </li>
+        <li>
             <a href="{{ url('contact') }}">Contact</a>
         </li>
 

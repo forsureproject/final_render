@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'home');
 Route::view('about', 'about');
+Route::view('process', 'process');
 Route::view('contact', 'contact');
 
 
