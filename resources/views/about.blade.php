@@ -51,7 +51,7 @@
                                     installation with terms and conditions applied.
                                 </p>
 
-                                <p class="text-muted">With our buy and build package our clients have peace of mind
+                                <p>With our buy and build package our clients have peace of mind
                                     knowing that their working with trust worthy and reliable experts. We’re a
                                     registered limited liability company. </p>
                             </div>
@@ -66,7 +66,7 @@
                         <div class="col-md-3">
                             <div class="section-info">
                                 <div class="title-hr"></div>
-                                <div class="info-title" id="why-us">Why Choose Forsure</div>
+                                <div class="info-title" id="why-us">Our Overall Focus</div>
                             </div>
                         </div>
                         <div class="col-md-9">
