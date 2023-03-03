@@ -451,7 +451,7 @@
         </div>
     </x-slot>
     <!-- Jumbotron -->
-    <section class="section-about">
+    <section class="section-about ">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -497,7 +497,9 @@
             </div>
         </div>
     </section>
-
+    <section class="my-24 space-y-16">
+        <livewire:front.call-to-action />
+    </section>
     {{-- <section class="section">
         <hr class="my-12 h-0.5 border-t-0 bg-gray-500/10 opacity-100 dark:opacity-50" />
         <img
@@ -534,7 +536,9 @@
                     <div class="project-hover-content">
                         <h3 class="project-title">Mid-century modern<br>Concrete and Glass House</h3>
                         <p class="project-description">
-                            Experience the beauty of mid-century modern design in your own luxurious home. This timeless style offers a unique blend of elegance and functionality, perfect for those seeking a chic and sophisticated living space.
+                            Experience the beauty of mid-century modern design in your own luxurious home. This timeless
+                            style offers a unique blend of elegance and functionality, perfect for those seeking a chic
+                            and sophisticated living space.
                         </p>
                     </div>
                 </div>
@@ -546,7 +550,9 @@
                     <div class="project-hover-content">
                         <h3 class="project-title">Ocean View<br>Apartments</h3>
                         <p class="project-description">
-                            Indulge in the ultimate coastal living experience with a breathtaking ocean view apartment offering exceptional comfort, style, and proximity to the ocean's beauty. Your dream home by the sea awaits.
+                            Indulge in the ultimate coastal living experience with a breathtaking ocean view apartment
+                            offering exceptional comfort, style, and proximity to the ocean's beauty. Your dream home by
+                            the sea awaits.
                         </p>
                     </div>
                 </div>
@@ -572,7 +578,8 @@
                 <div class="project-hover">
                     <div class="project-hover-content">
                         <h3 class="project-title">From Modern<br>to Contemporary<br>Design</h3>
-                        <p class="project-description">You can choose from Modern, Contemporary, Traditional, Mid-century modern, or Hollywood Regency inspired luxury style.   </p>
+                        <p class="project-description">You can choose from Modern, Contemporary, Traditional,
+                            Mid-century modern, or Hollywood Regency inspired luxury style. </p>
                     </div>
                 </div>
                 <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>

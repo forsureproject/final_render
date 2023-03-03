@@ -138,17 +138,17 @@ body{
 }
 
 ::selection{
-  background-color:#cee002;
+  background-color:#607d8b;
   color:#fff;
 }
 
 -webkit-::selection{
-    background-color:#cee002;
+    background-color:#607d8b;
     color:#fff;
 }
 
 ::-moz-selection{
-    background-color:#cee002;
+    background-color:#607d8b;
     color:#fff;
 }
 
@@ -1165,13 +1165,13 @@ a.brand:focus{
   z-index: 1;
 }
 
-.dots-image .dots{
-  position: absolute;
-  left:-20%;
-  bottom: -15%;
-  width: 101%;
-  height: 57.2%;
-  background:url(../images/bg/dots.png) 0 0 repeat;
+.dots-image .dots {
+    position: absolute;
+    left: -20%;
+    bottom: 20%;
+    width: 101%;
+    height: 57.2%;
+    background: url(../images/bg/dots.png) 0 0 repeat;
 }
 
 .experience-box{
@@ -2908,13 +2908,13 @@ a.brand:focus{
 
 .card-row:hover{
   color: #666;
-  background: #cee002;
+  background: #1614145e;
 }
 
 .card-row:hover .card-title,
 .card-row:hover .card-posted a,
 .card-row:hover .card-read-more{
-  color: #000;
+  color: #fafafa;
 }
 
 

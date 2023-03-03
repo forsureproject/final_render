@@ -18,6 +18,8 @@ Route::view('/', 'home');
 Route::view('about', 'about');
 Route::view('process', 'process');
 Route::view('contact', 'contact');
+Route::view('privacy', 'privacy');
+Route::view('terms', 'terms');
 
 
 Route::get('/dashboard', function () {
