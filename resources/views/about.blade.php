@@ -18,6 +18,7 @@
     <div class="content">
         <img src="/images/1-1920x800.jpg" class="h-auto max-w-full rounded-xl" alt="...">
         {{-- <div class="content-entry-image rounded-xl"></div> --}}
+        {{-- Testing pull --}}
         <div class="page-inner">
             <section class="section about-info">
                 <div class="container">
