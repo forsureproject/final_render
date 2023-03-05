@@ -19,10 +19,9 @@
         </div>
         <div class="flex-item">
             <ul>
-                <li><a href="{{ url('sitemap.xml') }}">Site Map</a></li>
-                <li><a href="{{  url('terms') }}">Term & Conditions</a></li>
                 <li><a href="{{  url('privacy') }}">Privacy Policy</a></li>
-                <li><a href="{{ url('contact') }}">Help</a></li>
+                <li><a href="{{  url('terms') }}">Term & Conditions</a></li>
+                <li><a href="{{ url('sitemap.xml') }}">Site Map</a></li>
             </ul>
         </div>
         <div class="flex-item">

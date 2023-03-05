@@ -1,22 +1,28 @@
 <x-guest-layout>
-
-    <div class=" p-5">
-
-        <div class="mx-autow-full  space-y-4">
-
-            <div class="space-y-4 my-16">
-                <h1 class="text-base font-semibold leading-7 text-lime-500 mb-5 ">The Forsure Process</h1>
-                <p class="mt-3 max-w-5xl font-extrabold tracking-tight text-white text-5xl">
-                    Our Seamless process: Plan, Prepare, Frame, Install, Finish, Inspect and Certify.
-                </p>
+    <main class="page-header-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="title-hr"></div>
+                </div>
+                <div class="col-md-10 col-lg-8">
+                    <h2 style="margin:0 0 !important;">Our Seamless process: Plan, Prepare, Frame, Finish, Inspect and Certify.</h2>
+                </div>
             </div>
-            <div class="">
+        </div>
+    </main>
 
+    <div class="content w-full">
+        <div class="w-full relative">
+            <img src="/images/architect/forsure13.jpg" class="w-full aspect-video max-w-full rounded-xl" alt="...">
+            <div class="bg-blue-700 opacity-10 absolute inset-0"></div>
+        </div>
+    <div class=" p-5">
                 <!-- Icon Blocks -->
                 <div class="mx-auto py-10">
                     <div class="grid grid-cols-2 md:grid-cols-3 items-center gap-3 xl:gap-6">
                         <!-- Card -->
-                        <div class="dark:hover:bg-white/[.055] flex group h-full  rounded-lg transition-all w-full"
+                        <div class="dark:hover:bg-white/[.055] flex group h-full  rounded-lg transition-all w-full p-4 "
                             href="#">
                             <svg class="flex-shrink-0 w-8 h-8 text-white mt-0.5 mr-6 dark:text-gray-200"
                                 xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -35,21 +41,11 @@
                                     </p>
                                 </div>
 
-                                <p class="mt-3 inline-flex items-center gap-x-2 text-sm font-semibold text-white dark:text-gray-200 hidden">
-                                    Learn more
-                                    <svg class="w-2.5 h-2.5 transition ease-in-out group-hover:translate-x-1"
-                                        width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M0.975821 6.92249C0.43689 6.92249 -3.50468e-07 7.34222 -3.27835e-07 7.85999C-3.05203e-07 8.37775 0.43689 8.79749 0.975821 8.79749L12.7694 8.79748L7.60447 13.7596C7.22339 14.1257 7.22339 14.7193 7.60447 15.0854C7.98555 15.4515 8.60341 15.4515 8.98449 15.0854L15.6427 8.68862C16.1191 8.23098 16.1191 7.48899 15.6427 7.03134L8.98449 0.634573C8.60341 0.268455 7.98555 0.268456 7.60447 0.634573C7.22339 1.00069 7.22339 1.59428 7.60447 1.9604L12.7694 6.92248L0.975821 6.92249Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                </p>
                             </div>
                         </div>
                         <!-- End Card -->
                         <!-- Card -->
-                        <div class="dark:hover:bg-white/[.055] flex group h-full  rounded-lg transition-all w-full"
+                        <div class="dark:hover:bg-white/[.055] flex group h-full  rounded-lg transition-all w-full p-4 "
                             href="#">
                             <svg class="flex-shrink-0 w-8 h-8 text-white mt-0.5 mr-6 dark:text-gray-200"
                                 xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -72,7 +68,7 @@
                         </div>
                         <!-- End Card -->
                         <!-- Card -->
-                        <div class="dark:hover:bg-white/[.055] flex group h-full  rounded-lg transition-all w-full"
+                        <div class="dark:hover:bg-white/[.055] flex group h-full  rounded-lg transition-all w-full p-4 "
                             href="#">
                             <svg class="flex-shrink-0 w-8 h-8 text-white mt-0.5 mr-6 dark:text-gray-200"
                                 xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -91,21 +87,11 @@
                                     </p>
                                 </div>
 
-                                <p class="mt-3 inline-flex items-center gap-x-2 text-sm font-semibold text-white dark:text-gray-200">
-                                    Learn more
-                                    <svg class="w-2.5 h-2.5 transition ease-in-out group-hover:translate-x-1"
-                                        width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M0.975821 6.92249C0.43689 6.92249 -3.50468e-07 7.34222 -3.27835e-07 7.85999C-3.05203e-07 8.37775 0.43689 8.79749 0.975821 8.79749L12.7694 8.79748L7.60447 13.7596C7.22339 14.1257 7.22339 14.7193 7.60447 15.0854C7.98555 15.4515 8.60341 15.4515 8.98449 15.0854L15.6427 8.68862C16.1191 8.23098 16.1191 7.48899 15.6427 7.03134L8.98449 0.634573C8.60341 0.268455 7.98555 0.268456 7.60447 0.634573C7.22339 1.00069 7.22339 1.59428 7.60447 1.9604L12.7694 6.92248L0.975821 6.92249Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                </p>
                             </div>
                         </div>
                         <!-- End Card -->
                         <!-- Card -->
-                        <div class="dark:hover:bg-white/[.055] flex group h-full  rounded-lg transition-all w-full"
+                        <div class="dark:hover:bg-white/[.055] flex group h-full  rounded-lg transition-all w-full p-4 "
                             href="#">
                             <svg class="flex-shrink-0 w-8 h-8 text-white mt-0.5 mr-6 dark:text-gray-200"
                                 xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -138,7 +124,7 @@
                         </div>
                         <!-- End Card -->
                         <!-- Card -->
-                        <div class="dark:hover:bg-white/[.055] flex group h-full  rounded-lg transition-all w-full"
+                        <div class="dark:hover:bg-white/[.055] flex group h-full  rounded-lg transition-all w-full p-4 "
                             href="#">
                             <svg class="flex-shrink-0 w-8 h-8 text-white mt-0.5 mr-6 dark:text-gray-200"
                                 xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -157,21 +143,11 @@
                                     </p>
                                 </div>
 
-                                <p class="mt-3 inline-flex items-center gap-x-2 text-sm font-semibold text-white dark:text-gray-200">
-                                    Learn more
-                                    <svg class="w-2.5 h-2.5 transition ease-in-out group-hover:translate-x-1"
-                                        width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M0.975821 6.92249C0.43689 6.92249 -3.50468e-07 7.34222 -3.27835e-07 7.85999C-3.05203e-07 8.37775 0.43689 8.79749 0.975821 8.79749L12.7694 8.79748L7.60447 13.7596C7.22339 14.1257 7.22339 14.7193 7.60447 15.0854C7.98555 15.4515 8.60341 15.4515 8.98449 15.0854L15.6427 8.68862C16.1191 8.23098 16.1191 7.48899 15.6427 7.03134L8.98449 0.634573C8.60341 0.268455 7.98555 0.268456 7.60447 0.634573C7.22339 1.00069 7.22339 1.59428 7.60447 1.9604L12.7694 6.92248L0.975821 6.92249Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                </p>
                             </div>
                         </div>
                         <!-- End Card -->
                         <!-- Card -->
-                        <div class="dark:hover:bg-white/[.055] flex group h-full  rounded-lg transition-all w-full"
+                        <div class="dark:hover:bg-white/[.055] flex group h-full  rounded-lg transition-all w-full p-4 "
                             href="#">
                             <svg class="flex-shrink-0 w-8 h-8 text-white mt-0.5 mr-6 dark:text-gray-200"
                                 xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -190,16 +166,7 @@
                                     </p>
                                 </div>
 
-                                <p class="mt-3 inline-flex items-center gap-x-2 text-sm font-semibold text-white dark:text-gray-200 hidden">
-                                    Learn more
-                                    <svg class="w-2.5 h-2.5 transition ease-in-out group-hover:translate-x-1"
-                                        width="16" height="16" viewBox="0 0 16 16" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                            d="M0.975821 6.92249C0.43689 6.92249 -3.50468e-07 7.34222 -3.27835e-07 7.85999C-3.05203e-07 8.37775 0.43689 8.79749 0.975821 8.79749L12.7694 8.79748L7.60447 13.7596C7.22339 14.1257 7.22339 14.7193 7.60447 15.0854C7.98555 15.4515 8.60341 15.4515 8.98449 15.0854L15.6427 8.68862C16.1191 8.23098 16.1191 7.48899 15.6427 7.03134L8.98449 0.634573C8.60341 0.268455 7.98555 0.268456 7.60447 0.634573C7.22339 1.00069 7.22339 1.59428 7.60447 1.9604L12.7694 6.92248L0.975821 6.92249Z"
-                                            fill="currentColor" />
-                                    </svg>
-                                </p>
+
                             </div>
                         </div>
                         <!-- End Card -->
@@ -207,13 +174,12 @@
                     </div>
                 </div>
                 <!-- End Icon Blocks -->
-
-
-            </div>
-        </div>
-
+    </div>
 
     </div>
+
+
+
 
 
 </x-guest-layout>

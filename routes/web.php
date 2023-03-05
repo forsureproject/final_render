@@ -20,6 +20,7 @@ Route::view('process', 'process');
 Route::view('contact', 'contact');
 Route::view('privacy', 'privacy');
 Route::view('terms', 'terms');
+Route::view('sitemap', 'sitemap');
 
 
 Route::get('/dashboard', function () {
