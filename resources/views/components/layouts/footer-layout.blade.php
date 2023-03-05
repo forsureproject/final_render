@@ -4,7 +4,7 @@
 <footer id="footer" class="footer section">
     <div class="footer-flex">
         <div class="flex-item">
-            <a class="brand pull-left" href="#">
+            <a class="brand pull-left" href=" {{ url('/') }}">
                 <img alt="" src="images/brand.png">
                 <div class="brand-info">
                     <div class="brand-name">Forsure</div>
@@ -21,6 +21,7 @@
             <ul>
                 <li><a href="{{  url('privacy') }}">Privacy Policy</a></li>
                 <li><a href="{{  url('terms') }}">Term & Conditions</a></li>
+                <li><a href="{{ url('contact') }}">Contact </a></li>
                 <li><a href="{{ url('sitemap.xml') }}">Site Map</a></li>
             </ul>
         </div>
@@ -28,7 +29,7 @@
             <ul>
                 <li><a href="{{ url('/') }}">Home</a></li>
                 <li><a href="{{ url('about') }}">About</a></li>
-                <li><a href="{{ url('contact') }}">Contact </a></li>
+                <li><a href="{{ url('process') }}">Our Process</a></li>
                 <li class="invisible"><a href="">Career</a></li>
             </ul>
         </div>

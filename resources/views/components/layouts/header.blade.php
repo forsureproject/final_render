@@ -17,11 +17,10 @@
             </a>
 
             <div class="social-list hidden-xs">
-                <a href="" class="icon ion-social-twitter"></a>
-                <a href="" class="icon ion-social-facebook"></a>
-                <a href="https://www.youtube.com/@forsure-realty" class="icon ion-social-youtube"></a>
-                <a href="" class="icon ion-social-linkedin"></a>
-                <!-- <a href="" class="icon ion-social-dribbble-outline"></a> -->
+                <a target="_blank" href="" class="icon ion-social-twitter"></a>
+                <a target="_blank" href="" class="icon ion-social-facebook"></a>
+                <a target="_blank" href="https://www.youtube.com/@forsure-realty" class="icon ion-social-youtube"></a>
+                <a target="_blank" href="" class="icon ion-social-linkedin"></a>
             </div>
 
             <div class="navbar-spacer hidden-sm hidden-xs"></div>

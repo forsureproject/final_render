@@ -109,7 +109,7 @@
                         data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1500"
                         data-splitin="none" data-splitout="none" data-responsive_offset="on"
                         data-elementdelay="0.05" style="font-weight:600; ">
-                        <a href="" class="link-arrow">See project <i
+                       <a href="{{ url('process') }}" class="link-arrow flex justify-start space-x-2 items-center">See Our Process <i
                                 class="icon ion-ios-arrow-thin-right"></i>
                         </a>
                     </div> --}}
@@ -219,7 +219,7 @@
                         data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1500"
                         data-splitin="none" data-splitout="none" data-responsive_offset="on"
                         data-elementdelay="0.05" style="font-weight:600; ">
-                        <a href="" class="link-arrow">See project <i
+                       <a href="{{ url('process') }}" class="link-arrow flex justify-start space-x-2 items-center">See Our Process <i
                                 class="icon ion-ios-arrow-thin-right"></i>
                         </a>
                     </div> --}}
@@ -329,7 +329,7 @@
                         data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1500"
                         data-splitin="none" data-splitout="none" data-responsive_offset="on"
                         data-elementdelay="0.05" style="font-weight:600; ">
-                        <a href="" class="link-arrow">See project <i
+                       <a href="{{ url('process') }}" class="link-arrow flex justify-start space-x-2 items-center">See Our Process <i
                                 class="icon ion-ios-arrow-thin-right"></i>
                         </a>
                     </div> --}}
@@ -439,7 +439,7 @@
                         data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;" data-start="1500"
                         data-splitin="none" data-splitout="none" data-responsive_offset="on"
                         data-elementdelay="0.05" style="font-weight:600; ">
-                        <a href="" class="link-arrow">See project <i
+                       <a href="{{ url('process') }}" class="link-arrow flex justify-start space-x-2 items-center">See Our Process <i
                                 class="icon ion-ios-arrow-thin-right"></i>
                         </a>
                     </div> --}}
@@ -542,7 +542,10 @@
                         </p>
                     </div>
                 </div>
-                <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+               <a href="{{ url('process') }}" class="link-arrow !flex justify-start space-x-2 items-center">
+                <span>See Our Process</span>
+                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" fill-rule="evenodd" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM10.293 9.707a1 1 0 1 1 1.414-1.414l3 3a1 1 0 0 1 0 1.414l-3 3a1 1 0 0 1-1.414-1.414L12.586 12l-2.293-2.293z" clip-rule="evenodd"/></svg>
+            </a>
             </div>
             <div class="project-item item-shadow building">
                 <img alt="" class="img-responsive" src="images/projects/building2.jpg">
@@ -556,21 +559,23 @@
                         </p>
                     </div>
                 </div>
-                <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+               <a href="{{ url('process') }}" class="link-arrow !flex justify-start space-x-2 items-center">
+                <span>See Our Process</span>
+                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" fill-rule="evenodd" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM10.293 9.707a1 1 0 1 1 1.414-1.414l3 3a1 1 0 0 1 0 1.414l-3 3a1 1 0 0 1-1.414-1.414L12.586 12l-2.293-2.293z" clip-rule="evenodd"/></svg>
+            </a>
             </div>
             <div class="project-item item-shadow building">
                 <img alt="" class="img-responsive" src="images/projects/building3.jpg">
                 <div class="project-hover">
                     <div class="project-hover-content">
                         <h3 class="project-title">Ultimate sanctuary <br>for relaxation and comfort.</h3>
-                        <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipil pcing
-                            elit. Proin nunc
-                            leo, rhoncus sit amet tolil arcu vel, pharetra volutpat sem lorn Donec tincidunt
-                            velit nec laoreet
-                            semper...</p>
+                        <p class="project-description">Experience the ultimate refuge from the chaos of everyday life, with a tranquil and secure abode that you can truly call your own. Find your dream home with us.</p>
                     </div>
                 </div>
-                <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+               <a href="{{ url('process') }}" class="link-arrow !flex justify-start space-x-2 items-center">
+                <span>See Our Process</span>
+                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" fill-rule="evenodd" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM10.293 9.707a1 1 0 1 1 1.414-1.414l3 3a1 1 0 0 1 0 1.414l-3 3a1 1 0 0 1-1.414-1.414L12.586 12l-2.293-2.293z" clip-rule="evenodd"/></svg>
+            </a>
             </div>
 
             <div class="project-item item-shadow interior-exterior">
@@ -582,9 +587,12 @@
                             Mid-century modern, or Hollywood Regency inspired luxury style. </p>
                     </div>
                 </div>
-                <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+               <a href="{{ url('process') }}" class="link-arrow !flex justify-start space-x-2 items-center">
+                <span>See Our Process</span>
+                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" fill-rule="evenodd" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM10.293 9.707a1 1 0 1 1 1.414-1.414l3 3a1 1 0 0 1 0 1.414l-3 3a1 1 0 0 1-1.414-1.414L12.586 12l-2.293-2.293z" clip-rule="evenodd"/></svg>
+            </a>
             </div>
-            <div class="project-item item-shadow interior-exterior">
+            <div class="project-item item-shadow interior-exterior hidden">
                 <img alt="" class="img-responsive" src="images/projects/6-426x574.jpg">
                 <div class="project-hover">
                     <div class="project-hover-content">
@@ -596,9 +604,12 @@
                             semper...</p>
                     </div>
                 </div>
-                <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+               <a href="{{ url('process') }}" class="link-arrow !flex justify-start space-x-2 items-center">
+                <span>See Our Process</span>
+                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" fill-rule="evenodd" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM10.293 9.707a1 1 0 1 1 1.414-1.414l3 3a1 1 0 0 1 0 1.414l-3 3a1 1 0 0 1-1.414-1.414L12.586 12l-2.293-2.293z" clip-rule="evenodd"/></svg>
+            </a>
             </div>
-            <div class="project-item item-shadow interior-exterior">
+            <div class="project-item item-shadow interior-exterior hidden">
                 <img alt="" class="img-responsive" src="images/projects/7-426x574.jpg">
                 <div class="project-hover">
                     <div class="project-hover-content">
@@ -610,9 +621,12 @@
                             semper...</p>
                     </div>
                 </div>
-                <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+               <a href="{{ url('process') }}" class="link-arrow !flex justify-start space-x-2 items-center">
+                <span>See Our Process</span>
+                <svg class="w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><path fill="currentColor" fill-rule="evenodd" d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM10.293 9.707a1 1 0 1 1 1.414-1.414l3 3a1 1 0 0 1 0 1.414l-3 3a1 1 0 0 1-1.414-1.414L12.586 12l-2.293-2.293z" clip-rule="evenodd"/></svg>
+            </a>
             </div>
-            <div class="project-item item-shadow interior-exterior">
+            <div class="project-item item-shadow interior-exterior hidden">
                 <img alt="" class="img-responsive" src="images/projects/8-426x574.jpg">
                 <div class="project-hover">
                     <div class="project-hover-content">
@@ -624,7 +638,7 @@
                             semper...</p>
                     </div>
                 </div>
-                <a href="" class="link-arrow">See project <i class="icon ion-ios-arrow-right"></i></a>
+                <a href="{{ url('process') }}" class="link-arrow flex justify-start space-x-2 items-center"><span>See Our Process </span><i class="icon ion-ios-arrow-right"></i></a>
             </div>
         </div>
     </section>

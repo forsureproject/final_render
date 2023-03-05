@@ -14,8 +14,10 @@
 
     <div class="content w-full">
         <div class="w-full relative">
-            <img src="/images/architect/forsure13.jpg" class="w-full aspect-video max-w-full rounded-xl" alt="...">
-            <div class="bg-blue-700 opacity-10 absolute inset-0"></div>
+            {{-- <img src="/images/architect/forsure13.jpg" class="w-full aspect-video max-w-full rounded-xl" alt="..."> --}}
+            {{-- <div class="bg-blue-700 opacity-10 absolute inset-0"></div> --}}
+
+            <livewire:gallery />
         </div>
     <div class=" p-5">
                 <!-- Icon Blocks -->
@@ -176,6 +178,10 @@
                 <!-- End Icon Blocks -->
     </div>
 
+    <div class="w-full relative">
+        <img src="/images/architect/forsure13.jpg" class="w-full aspect-video max-w-full rounded-xl" alt="...">
+        <div class="bg-blue-700 opacity-10 absolute inset-0"></div>
+    </div>
     </div>
 
 
